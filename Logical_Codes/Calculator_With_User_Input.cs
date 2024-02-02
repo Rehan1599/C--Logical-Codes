@@ -14,14 +14,14 @@ namespace Calculator_Using_Method
         public static void add(int num1,int num2)
         {
             int result = num1 + num2;
-            Console.WriteLine("Yuor addition number is:" + result);
+            Console.WriteLine("Your addition number is:" + result);
         }
 
         //subtraction
         public static void sub(int num1, int num2)
         {
             int result = num1 - num2;
-            Console.WriteLine("Yuor Subtraction number is:" + result);
+            Console.WriteLine("Your Subtraction number is:" + result);
         }
 
 
@@ -30,7 +30,7 @@ namespace Calculator_Using_Method
         public static void mult(int num1, int num2)
         {
             int result = num1 * num2;
-            Console.WriteLine("Yuor Multiplication number is:" + result);
+            Console.WriteLine("Your Multiplication number is:" + result);
         }
 
         //Devide 
@@ -38,13 +38,13 @@ namespace Calculator_Using_Method
         public static void dev(int num1, int num2)
         {
             int result = num1 / num2;
-            Console.WriteLine("Yuor Devided number is:" + result);
+            Console.WriteLine("Your Devided number is:" + result);
         }
         //reminder
         public static void rem(int num1, int num2)
         {
             int result = num1 % num2;
-            Console.WriteLine("Yuor Reminder number is:" + result);
+            Console.WriteLine("Your Reminder number is:" + result);
         }
 
 
@@ -85,7 +85,7 @@ namespace Calculator_Using_Method
                 }
 
 
-                Console.WriteLine("You want to calculate other number : yes / no");
+                Console.WriteLine("You want to calculate other numbers : yes / no");
                 string cont = Console.ReadLine().ToLower();
                 if(cont == "yes")
                 {
