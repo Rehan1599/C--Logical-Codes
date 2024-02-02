@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pelindrome_Number.cs" />
-    <Compile Include="Calculator_User_Input.cs" />
     <Compile Include="Febonacci_program.cs" />
     <Compile Include="Half_Pyramid.cs" />
     <Compile Include="Hollow_Rectangle.cs" />
